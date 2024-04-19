@@ -13,7 +13,6 @@ function App() {
     const sortedData = json.sort(
       (a, b) => b.source_items.audience_size - a.source_items.audience_size
     );
-    console.log(sortedData, 'omer baig');
     setData(sortedData);
   }, []);
   return (
